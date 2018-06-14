@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+{% extends 'htdw/base.html' %}
+{% load staticfiles %}
+
+{% block body_block %}
+
+<video autoplay muted loop id="myVideo">
+  <source src="{% static "videos/entrance.mp4" %}" type="video/mp4">
+</video>
+
+{% endblock %}

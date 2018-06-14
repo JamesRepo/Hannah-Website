@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+{% extends 'htdw/base.html' %}
+{% load staticfiles %}
+
+{% block body_block %}
+  <h1 class="headings">Work</h1>
+  <h6>I am an Artist that likes to explore what the medium can give to a piece of work. I like to be peformer , artist and creator. The following list illustrates the variety of work I have been involved in over the last few years.</h6>
+
+  <a href="{% url 'film' %}"><img class="work_image" src="{% static "images/film.png" %}" alt=""></a>
+  <a href="{% url 'performance' %}"><img class="work_image" src="{% static "images/performance.jpg" %}" alt=""></a>
+  <a href="{% url 'social_practice' %}"><img class="work_image" src="{% static "images/social.jpg" %}" alt=""></a>
+  <a href="{% url 'harmless' %}"><img class="work_image" src="{% static "images/harmless.jpg" %}" alt=""></a>
+{% endblock %}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+{% extends 'htdw/base.html' %}
+{% load staticfiles %}
+
+{% block body_block %}
+  <h1 class="headings">Performance</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 performance_text">
+        <ul class="work-list">
+          <h6>2015</h6>
+            <li>'Laguna Babe' : Music video / Lead female actor</li>
+            <li>'Sarah Tonein' : Persona performance</li>
+            <li>'Where is life going?' : Performance and photography series</li>
+          <br>
+          <h6>2016</h6>
+            <li>'Dedicated' : Music video / Actor</li>
+            <li>'Incandescent' : Performer / Collaborator</li>
+            <li>'Trick or Treat' : Interactive performance / Art school</li>
+            <li>'Social superior' : Process drama / Actor</li>
+          <br>
+          <h6>2017</h6>
+            <li>'Plastic Bodies' : Short film / Actor</li>
+            <li>'Choice' : Performance / Creator / Performer Tilburg</li>
+            <li>Promenade performance for Galoshans Festival directed by Robbie Gordon and David Gillian</li>
+            <li>'Reflection of the Self' : Collaborator / performer in Peter Lorenz Graduate show</li>
+            <li>Antonija Livingstone performance at Buzzcut Festival : Performer</li>
+            <li>'Monk fish' : Walk about performance /Kelburn, Eden,</li>
+            <li>Phaze cloth : Walk about / London Edge</li>
+            <li>'Dance piece' : International dance performances / Fontys University / Tilburg / Eindhoven</li>
+            <li>'Nusery Cyrmes' : Mischief La Bas / Performer</li>
+          <br>
+          <h6>2018</h6>
+            <li>'Harm(less)' : Degree show performance/ In to The New festival / Performer / Creator</li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <img class="performance_image" src="{% static "images/trick.jpg" %}" alt="">
+        <img class="performance_image" src="{% static "images/mischief.jpg" %}" alt="">
+        <img class="performance_image" src="{% static "images/Unknown.jpg" %}" alt="">
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,112 @@
+main {
+  padding: 50px 20px 20px 20px;
+  background-color: #EBEBEB;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+h6 {
+  text-align: center;
+}
+footer {
+  padding: 10px;
+  font-family: 'Josefin Slab', serif;
+  background-color: #EBEBEB;
+  font-size: 15px;
+}
+p {
+  font-family: 'Poiret One', cursive;
+}
+.headings {
+  font-family: 'Josefin Slab', serif;
+}
+.navbar {
+  background-color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+.nav-item {
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+#about_image {
+  position: relative;
+  top: 300px;
+  width: 25vw;
+  height: auto;
+}
+.work_image {
+  width: 45vw;
+  height: auto;
+  padding: 50px;
+}
+
+
+.social-image {
+  width: 350px;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.social-images {
+  float: right;
+}
+
+.fa {
+  color: #273746;
+  font-size: 100px;
+  height: auto;
+  padding: 20px;
+}
+.work-list {
+  list-style-type: none;
+  text-align: center;
+}
+.cv_image {
+  width: 100vw;
+  height: auto;
+}
+#myVideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: auto;
+}
+.harmless_image {
+  width: 400px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.harmless_text {
+  padding-top: 150px;
+}
+.performance_image {
+  width: 400px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.performance_text {
+  padding-top: 150px;
+}
+#harmless-bro {
+    padding-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#opener {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}

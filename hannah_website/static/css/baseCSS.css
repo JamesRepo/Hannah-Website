@@ -1,0 +1,9 @@
+{% load staticfiles %}
+
+p {
+  color: red;
+}
+h1 {
+  color: red;
+  font-size: 10px;
+}

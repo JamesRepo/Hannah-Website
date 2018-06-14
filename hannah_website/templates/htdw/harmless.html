@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+{% extends 'htdw/base.html' %}
+{% load staticfiles %}
+
+{% block body_block %}
+  <h1 class="headings">Harmless</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 harmless_text">
+        <p>Harm(less)</p>
+        <p>Everystory has two sides.<br>
+        Which side do you choose to tell?<br>
+        Everything is fine.<br>
+        You are enjoying yourself.<br>
+        Seems harmless</p>
+
+        <p>But it's not<br>
+          Do we say yes to things when we want to say no? Do we even say yes?<br>
+          “You’re a pretty young thing ain't ya? Want a drink?“<br>
+          One drink leads to another, leads to a line, leads to the lines of consent blurring, leads to foreign hands across your skin, lips pursed and pushed, your head start to swirl and so does your memory. What happened last night? Was this your choice?<br>
+          You must have wanted it? You must have...<br>
+          But its fine...<br>
+          It’s fine...<br>
+          It’s so fine...<p>
+          <br>
+          <br>
+        <p>Harm(less) is an autobiographical performance that aims to uncover the impacts of sexual assault on a female body in a hyper sexualised society. Exploring the liminal space between Medusa and Aphrodite, female victim and monster to the female empowered sexual goddess. Harm(less) examines how trauma can effect our lives, looking at the good ,the bad and the ugly sexual experiences - searching for memories we have rose-tinted and the ones that we have buried in the depths of our minds. Like Pandora's box once opened these stories will flood out , sometimes from the most unexpected places.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="harmless_image" src="{% static "images/sideeye.jpg" %}" alt="">
+        <img class="harmless_image" src="{% static "images/reading.jpg" %}" alt="">
+        <img class="harmless_image" src="{% static "images/blur.jpg" %}" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <img id="harmless-bro" src="{% static "images/harmless_bro.png" %}" alt="">
+    </div>
+  </div>
+
+
+
+{% endblock %}

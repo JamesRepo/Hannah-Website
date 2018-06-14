@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>
+      Hannah's Website!
+    </title>
+    <link rel="stylesheet" href="{% static "css/new.css" %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Slab">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="nav-item" href="{% url 'index' %}"><strong>HANNAH TALULAH DIXON WRIGHT</strong></a>
+        </div>
+         <div>
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'artist_statement' %}">Artist Statement</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'work' %}">Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'cv' %}">CV</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'contact' %}">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <main>
+    {% block body_block %}
+    {% endblock %}
+    </main>
+
+
+    <footer>Copyright © Hannah Talulah Dixon Wright 2018. All rights reserved.</footer>
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="{% static "js/han-jquery.js" %}"></script>
+    <script src="{% static "js/baseJS.js" %}"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <!-- IE10 viewport hack -->
+    <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
