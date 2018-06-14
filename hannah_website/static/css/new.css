@@ -7,6 +7,7 @@ h1 {
   padding-bottom: 25px;
 }
 h6 {
+  font-family: 'Josefin Slab', serif;
   text-align: center;
 }
 footer {
@@ -18,8 +19,12 @@ footer {
 p {
   font-family: 'Poiret One', cursive;
 }
+li {
+  font-family: 'Poiret One', cursive;
+}
 .headings {
   font-family: 'Josefin Slab', serif;
+  color: #3bd6c6;
 }
 .navbar {
   background-color: black;
@@ -29,12 +34,24 @@ p {
 .nav-item {
   color: white;
 }
+.nav-item:hover {
+  color: #3bd6c6;
+}
 .nav-link {
   color: white;
+}
+.nav-link:hover {
+  color: #3bd6c6;
 }
 #about_image {
   position: relative;
   top: 300px;
+  width: 25vw;
+  height: auto;
+}
+#artist_image {
+  position: relative;
+  top: 900px;
   width: 25vw;
   height: auto;
 }
@@ -54,7 +71,9 @@ p {
 .social-images {
   float: right;
 }
-
+.artist-text {
+  text-align: center;
+}
 .fa {
   color: #273746;
   font-size: 100px;
@@ -70,10 +89,12 @@ p {
   height: auto;
 }
 #myVideo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80vw;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100vw;
   height: auto;
 }
 .harmless_image {
@@ -91,6 +112,15 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.film_image {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.film_text {
+  padding-top: 150px;
+}
 .performance_text {
   padding-top: 150px;
 }
@@ -106,7 +136,11 @@ p {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
+  width: 100vw;
   height: auto;
   z-index: -100;
+}
+
+#work-intro {
+  font-family: 'Poiret One', cursive;
 }
