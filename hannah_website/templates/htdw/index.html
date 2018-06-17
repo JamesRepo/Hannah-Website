@@ -4,11 +4,9 @@
 <head>
   <link rel="stylesheet" href="{% static "css/new.css" %}">
 </head>
-<body>
-  <a href="{% url 'about' %}">
-  <video autoplay muted loop id="opener">
-    <source src="{% static "videos/entrance.mp4" %}" type="video/mp4">
-  </video>
+<body id="splash">
+  <a href="{% url 'home' %}">
+    <img src="{% static "images/entrancePic.jpg" %}" alt="" id="open-image">
   </a>
 </body>
 </html>
