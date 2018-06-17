@@ -51,7 +51,7 @@ li {
 }
 #artist_image {
   position: relative;
-  top: 500px;
+  top: 300px;
   width: 40vw;
   height: auto;
 }
@@ -177,4 +177,5 @@ li {
   margin-right: auto;
   width: 75vw;
   height: auto;
+  padding-bottom: 200px;
 }
