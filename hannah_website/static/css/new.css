@@ -1,6 +1,15 @@
-main {
-  padding: 50px 20px 20px 20px;
+/*
+* CSS File
+*/
+
+/*
+* General
+*/
+footer {
+  padding: 10px;
+  font-family: 'Josefin Slab', serif;
   background-color: #EBEBEB;
+  font-size: 15px;
 }
 h1 {
   text-align: center;
@@ -10,27 +19,24 @@ h6 {
   font-family: 'Josefin Slab', serif;
   text-align: center;
 }
-footer {
-  padding: 10px;
-  font-family: 'Josefin Slab', serif;
-  background-color: #EBEBEB;
-  font-size: 15px;
-}
-p {
-  font-family: 'Poiret One', cursive;
-}
-li {
-  font-family: 'Poiret One', cursive;
-}
 .headings {
   font-family: 'Josefin Slab', serif;
   color: #3bd6c6;
 }
-.navbar {
-  background-color: black;
-  font-family: 'Amatic SC', cursive;
-  font-size: 30px;
+li {
+  font-family: 'Poiret One', cursive;
 }
+main {
+  padding: 50px 20px 20px 20px;
+  background-color: #EBEBEB;
+}
+p {
+  font-family: 'Poiret One', cursive;
+}
+
+/*
+* Navigation
+*/
 .nav-item {
   color: white;
 }
@@ -43,6 +49,15 @@ li {
 .nav-link:hover {
   color: #3bd6c6;
 }
+.navbar {
+  background-color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+/*
+* Images
+*/
 #about_image {
   position: relative;
   top: 100px;
@@ -59,13 +74,41 @@ li {
   width: 40vw;
   height: auto;
 }
-.work_image {
-  width: 45vw;
+.cv_image {
+  width: 100vw;
   height: auto;
-  padding: 50px;
 }
-
-
+.film_image {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#harmless-bro {
+    padding-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.harmless_image {
+  width: 400px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#open-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 100%;
+}
+.performance_image {
+  width: 400px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .social-image {
   width: 350px;
   height: auto;
@@ -76,14 +119,49 @@ li {
   float: right;
   padding-top: 150px;
 }
+#splash {
+  background-color: black;
+}
+.work_image {
+  width: 45vw;
+  height: auto;
+  padding: 50px;
+}
+
+/*
+* Text
+*/
 .artist-text {
   text-align: center;
 }
+.film_text {
+  padding-top: 150px;
+}
+.harmless_text {
+  padding-top: 150px;
+}
+.performance_text {
+  padding-top: 100px;
+}
+#work-intro {
+  font-family: 'Poiret One', cursive;
+}
+.work-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+/*
+* Icons
+*/
 .fa {
   color: black;
   font-size: 60px;
   height: auto;
   padding: 20px;
+}
+.fa:hover {
+  color: #3bd6c6;
 }
 .icons {
     color: black;
@@ -91,16 +169,17 @@ li {
     height: auto;
     padding: 20px;
 }
-.fa:hover {
-  color: #3bd6c6;
-}
-.work-list {
-  list-style-type: none;
-  text-align: center;
-}
-.cv_image {
-  width: 100vw;
+
+/*
+* Video
+*/
+#home-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vw;
   height: auto;
+  padding-bottom: 200px;
 }
 #myVideo {
   position: fixed;
@@ -111,40 +190,6 @@ li {
   width: 100vw;
   height: auto;
 }
-.harmless_image {
-  width: 400px;
-  height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.harmless_text {
-  padding-top: 150px;
-}
-.performance_image {
-  width: 400px;
-  height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.film_image {
-    width: 400px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.film_text {
-  padding-top: 150px;
-}
-.performance_text {
-  padding-top: 100px;
-}
-
-#harmless-bro {
-    padding-top: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 #opener {
   position: fixed;
   right: 0;
@@ -154,28 +199,4 @@ li {
   width: 100vw;
   height: auto;
   z-index: -100;
-}
-
-#work-intro {
-  font-family: 'Poiret One', cursive;
-}
-
-#open-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  height: 100%;
-
-}
-#splash {
-  background-color: black;
-}
-#home-video {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75vw;
-  height: auto;
-  padding-bottom: 200px;
 }
